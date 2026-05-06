@@ -6,7 +6,6 @@ try:
     v1 = float(input("Stock Volume (V1): "))
     c2 = float(input("Desired Concentration (C2): "))
 
-    # This gets the two values back from the function
     v2, v_add = calculate_final_volume(c1, v1, c2)
 
     print("\n" + "="*30)

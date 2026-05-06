@@ -1,6 +1,6 @@
-def calculate_final_volume(c1, v1, c2):
+ def calculate_final_volume(c1, v1, c2):
     """
-    Calculates the final volume (V2) and the volume of buffer to add.
+    Calculates total volume (V2) and volume to add (V_add).
     Formula: C1 * V1 = C2 * V2
     """
     if c2 == 0:

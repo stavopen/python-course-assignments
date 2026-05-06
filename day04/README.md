@@ -1,32 +1,11 @@
-# Day 03 - Dilution Calculator
+# Day 04 - Dilution Calculator Extension
 
-## Description
-This program calculates dilution using the formula:
+## New Feature: Buffer Addition Recipe
+I extended the logic to calculate the exact volume of solvent (buffer) required to reach the target concentration. The tool now outputs both the total final volume ($V_2$) and the specific amount of buffer to add ($V_{add}$), providing a practical recipe for lab work.
 
-C1 × V1 = C2 × V2
+## Peer Reviews
+- **Review 1 (Rotem Vazana):** Reported an edge case where empty string inputs return 0.00 in the DNA Tm calculator.
+- **Review 2 (Benny Kula):** Suggested adding Imperial unit support to the BMI calculator.
 
-It calculates the final volume (V2) based on:
-- C1: stock concentration
-- V1: stock volume
-- C2: desired concentration
-
----
-
-## Files
-
-- dilution.py - core calculation logic
-- dilution_input.py - interactive input version
-- dilution_args.py - command line version
-- dilution_gui.py - GUI version (Tkinter)
-- test_dilution.py - unit tests
-- README.md - Project documentation
-
----
-
-## How to run
-
-Make sure you are inside the `day03` folder.
-
-## AI usage
-
-I used ChatGPT to help with debugging and to get suggestions on structuring the project and formatting the README file.
+## AI Interaction
+I used Gemini to help structure my folder organization and to refine the mathematical logic for the buffer addition feature.
