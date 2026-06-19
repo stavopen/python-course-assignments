@@ -1,0 +1,13 @@
+sample,group,sex,age,bmi,diabetes,statin_use
+Sample1,Control,M,50,26.9,no,yes
+Sample2,Control,F,50,30.4,yes,no
+Sample3,Control,M,63,28.9,no,yes
+Sample4,Control,M,63,26.7,yes,no
+Sample5,Control,M,42,31.8,yes,yes
+Sample6,Control,F,61,24.2,no,no
+Sample7,Gallstone,M,41,26.7,no,yes
+Sample8,Gallstone,M,63,27.9,no,no
+Sample9,Gallstone,M,69,29.3,no,no
+Sample10,Gallstone,F,41,34.6,yes,yes
+Sample11,Gallstone,M,60,25.2,no,no
+Sample12,Gallstone,M,72,30.2,no,no
